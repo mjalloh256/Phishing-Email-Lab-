@@ -75,7 +75,10 @@ This is an real life  phising atempt that I found while browsing through my emai
 <img src="https://imgur.com/nGIcdWe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
-<br />  As you can see in the window above. As soon as I ran the IP address into the  OSNIT tool virus total. It confirmed that the user who sent this email has a malicous IP address, menaing they have been reported by security vendors for malicous activity. I did a little deeper analysis to see if I could find out a little more history about this IP address and I found out that
+<br />  As you can see in the window above. As soon as I ran the IP address into the  OSNIT tool virus total. It confirmed that the user who sent this email has a malicous IP address, meaning they have been reported by security vendors for malicous activity. I did a little deeper analysis to see if I could find out a little more history about this IP address. I found out that this IP Address is in communication with a handful of malicious files. As I futher analylzed this Ip Address futher I found out that the malicous communicating files are mostly pertaing to information gathering or stealing. Below is the virus total window where I did a futher analysis on this Ip Address. 
+
+<img src="https://imgur.com/ijDfetd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 
 <br />
 
