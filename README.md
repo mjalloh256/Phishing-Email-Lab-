@@ -24,6 +24,7 @@ This is an real life  phising atempt that I found while browsing through my emai
 - <b> Virus Total </b> 
 
 - <b>  Victim Computer </b>
+- <b> Mitre&ATT&CK </b>
 
 
 
@@ -84,36 +85,19 @@ This is an real life  phising atempt that I found while browsing through my emai
 
 
 
-## Vulnerblites On Mac OS:  <br/>
+## Investigation report:  <br/>
 
-<img src="https://imgur.com/qes9XMK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/DhSMqZP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br /> 
-
-The specfic vulnerblites listed for the Mac OS are all potential attacks that can be executed towards the system. The way to remediate these vulnerblites would be a simple system update. The current version of Mac OS that is running on the system is 14.0 the update recommended by nessus is the Mac OS of 14.1.2 which contains security patches for the vulnerblites listed for 14.0. I later installed latest running OS for Mac.
+In this window you can see the investigation report that I created for this incident.To view its contents you can click on the picture.  It contains the hostname,Username ,Time of the event, Mirtre ID, Brief discription of what happpen, evidence/artifacts and recomendations to mitigate this malicous activity. 
 
 <br />
 
 
 
-## Vulnerblites On Mac OS for Zoom client application <br/>
+## Conclusion <br/>  
 
-<img src="https://imgur.com/3OxbcRr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-<img src="https://imgur.com/IgPLdqf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br> In conclusion this overall wasn't a complex event to investigate as long as you knew the right places to look, then it was relativly easy. Exspecially since there were no links to redirect you to another domain or downloadable files on the email which made my analysis portion of this investigation realtivly quick.  What you could also take from this real life scenario is that malicious actors are getting really good at fabercating emails and posing as real compaines so you have to be really carful when clicking on emails. The email that was sent to my inbox looked like a legitiment email from Norton. It only rasied suspicion becuase I do not have any active memberships with the company which is what lead me to my investigation of the email. <br/>
 
 
-
-<br /> The last vulnerblity that was found on the Mac OS was with the application zoom. The vulneriblites found by nessues include  Improper authorization in some Zoom clients may allow an authorized user to conduct an escalation of privilege via network access,Insufficient control flow management in some Zoom clients may allow an authenticated user to conduct an information disclosure via network access,Buffer overflow in some Zoom clients may allow an unauthenticated user to conduct a denial of service via network access,Improper conditions check in Zoom Team Chat for Zoom clients may allow an authenticated user to conduct a denial of service via network access and aCryptographic issues with In-Meeting Chat for soZoom clients may allow a privileged user to conduct an information disclosure via network access. These are all vulnerblites that are found with the current version of zoom found on this system 5.15.12. Nessus recommends downloading version 15.16.0 that contains the vulnerblity pataches for this application. After finding these vulnerblites on the Mac os system I downloaded the latest version of zoom client application.  
-
-<br />
-
-
-
-## CIA TRIAD FRAMEWORK  :  <br/>
-
-<img src="https://imgur.com/KJuon8i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-<br /> The vulnerblity assesment that I conducted on my network is a very important task that companies all around the world need to implemnt to insure their information/data security. Cyber secuirty frameworks such as the CIA Traid help us insure proper security. As I have done, the vulnerblity assesment that I conducted on my network made sure to implement this framework. Confidentiality is very big when it comes to securing your data. With the assesment that I did on my network I was able to discover vulnerblites with certain applications that leak data. Integrity is the next objective in the CIA Triad. The importance of this is to make sure that the information that an application is providing has the correct security measures so that data is not tampered with and is 100 percent authentic and can be trusted. There were also vulnerblites of this too found on my network. The last objective the CIA Triad covered on the network vulnerblity assement is avalblity. With the vulnerblity report that nessus provided some applications had vulnerblites of a dos(denial of service) attack. In conclusion the CIA TRIAD was correctly implemented in all of these applications due to updates that I installed for each api. The security vulnerblites were all mitigated for these applications which insured confidentiality, Integrity, and avalblity lity for each api on the device. 
-
-<br /> 
