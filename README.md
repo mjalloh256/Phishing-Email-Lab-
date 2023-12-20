@@ -1,4 +1,4 @@
-<h1> Email Phising Lab </h1>
+<h1> Email Phishing Lab </h1>
 
 
 
