@@ -8,7 +8,7 @@
 
 <h2>Introduction/Description</h2>
 
-This is an real life  phising atempt that I found while browsing through my emails. In this lab I will do a walk through of how I confirmed that this is a malicous attempt to steal more information on me and what i did to mitigate this user from atempting something like this again. 
+This is an real life  phishing atempt that I found while browsing through my emails. In this lab I will do a walk through of how I confirmed that this is a malicous attempt to steal more information on me and what i did to mitigate this user from atempting something like this again. 
 
 <br />
 
