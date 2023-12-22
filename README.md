@@ -200,29 +200,39 @@ This is another real life  phishing atempt that I found while browsing through m
 <img src="https://imgur.com/SGoy1Ec.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
-<br />  As you can see in the window above. As soon as I ran the IP address into the  OSNIT tool virus total. It confirmed that the user who sent this email has a malicous IP address, meaning they have been reported by security vendors for malicous activity. I did a little deeper analysis to see if I could find out a little more history about this IP address. I found out that this IP Address is in communication with a handful of malicious files. As I futher analylzed this Ip Address futher I found out that the malicous communicating files are mostly pertaing to information gathering or stealing. Below is the virus total window where I did a futher analysis on this Ip Address. 
+<br />  After I ran the IP address of the user that sent this email to me. Virus total marked this user as non malicious with 0 security vendors stating it is malicious. However I was able to see that the IP address was in communications with other files. This lead me to do a deeper analysis on virius total and investigate the communicating files within this IP address.
 
-<img src="https://imgur.com/t7KYIsz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/t7KYIsz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+
+As I continued my investigation with the communicating files for that IP address I found out that 2 of the 13 files this IP address was communicating with were marked as malicious which rasied even futher suspicion. The first file had a score of 1/60 security vendors makrking the file as malicious and the second file had a score of 1/59 security vendors marking it as malicious.Even though the IP address was not marked for malicious activity that didnt mean it was totally clean. 
 
 
 <br />
 
 
 
-## Investigation report:  <br/>
+## Sandbox analysis/report <br/>
 
-<img src="https://imgur.com/DhSMqZP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/vSONIYg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<br /> 
-In this window you can see the investigation report that I created for this incident.To view its contents you can click on the picture.  It contains the hostname,Username ,Time of the event, Mirtre ID, Brief discription of what happpen, evidence/artifacts and recomendations to mitigate this malicous activity. 
+<br /> As my suspicions of this email being malicious increased. I decided that the best course of action was a sandbox analysis. I took the links that were attachted to the email and ran a sandbox analysis on it to see any process,executions or downloadable files that could possably appear if an actual user was to click on the link. The sandbox analysis would also allow me to see if there were any threats to a user who clicks on one of these links. 
+
 
 <br />
 
 
 
-## Conclusion <br/>  
+## Sandbox analysis/report 2  <br/>  
+<img src="https://imgur.com/Z7K05AK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br> As I continuned my investigation you can see that there are a total of 20 connections to that redirected link that was presented in the email that I recevied. You have IP addresses from Belgium,Germany and the United States all connecting with that domain. The next course of action that I did was scan these IP address to confirm if they were malicous or not.   <br/>
+<img src="https://imgur.com/rf2w71F.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+<img src="https://imgur.com/ebDzbXB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 
-<br> In conclusion this overall wasn't a complex event to investigate as long as you knew the right places to look, then it was relativly easy. Exspecially since there were no links to redirect you to another domain or downloadable files on the email which made my analysis portion of this investigation realtivly quick.  What you could also take from this real life scenario is that malicious actors are getting really good at fabercating emails and posing as real compaines so you have to be really carful when clicking on emails. The email that was sent to my inbox looked like a legitiment email from Norton. It only rasied suspicion becuase I do not have any active memberships with the company which is what lead me to my investigation of the email. <br/>
+<br> After just scanning the first 3 IP addresses I could confrim that those address were malicious or was communicating with malicious files. In conclusion all 20 of the IP addresses that were in connection with the redirected link from the email were all malicious or in communication with malicous files. Above is one example of one of the malicous IP address that was in communication with this link. In the second window you can see communicating files that is assosiated with this IP address. The total number of files is about 1 Million. And about 90 percent of those files are malicous.  <br/>
+## Sandbox analysis/report 3 <br/>  
+
+<img src="https://imgur.com/2UveA2z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+<b> For the last portion of my sandbox analysis on this email I was able to see the threat that would be exposed to a user if they were to click this link. The picture above shows this. The threat was marked as malicous by ANY.RUN the sandbox tool. The data was  from a Suricata IDS. The threat was URL shortening. The main reason a malicious actor would shorten a URL link would be to hide the exact location a URL would take a user. The main reason would be becuase it is a malicous domain that can contain malware, dangerous downloadable files, virius or more. <br
 
 
 
