@@ -98,6 +98,132 @@ In this window you can see the investigation report that I created for this inci
 
 ## Conclusion <br/>  
 
+<br> In conclusion this overall wasn't a complex event to investigate as long as you knew the right places to look, then it was relativly easy. Exspecially since there were no links to redirect you to another domain or downloadable files on the email which made my analysis portion of this investigation realtivly quick.  What you could also take from this real life scenario is that malicious actors are getting really good at fabercating emails and posing as real compaines so you have to be really carful when clicking on emails. The email that was sent to my inbox looked like a legitiment email from Norton. It only rasied suspicion becuase I do not have any active memberships with the company which is what lead me to my investigation of the email. <br/>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1> Email Phishing Lab 2 </h1>
+
+
+
+ 
+
+
+
+<h2>Introduction/Description</h2>
+
+This is another real life  phishing atempt that I found while browsing through my emails. In this lab I will do a walk through of how I confirmed that this is a malicous attempt to steal more information on me and what I did to mitigate this user from atempting something like this again. 
+
+<br />
+
+
+
+
+
+
+<h2>Languages and Utilities Used</h2>
+
+
+
+- <b> Virus Total </b> 
+
+- <b>  Victim Computer </b>
+- <b> Mitre&ATT&CK </b>
+- <b> ANY.RUN sandbox tool</>
+
+
+
+<h2>Environments Used </h2>
+
+
+
+- <b> Virus Total  </b>
+- <b> Victim Computer </b>
+- <b> ANY.RUN sandbox </b> 
+
+
+
+
+
+
+
+<h2>Program walk-through:</h2>
+
+
+
+<p align="left">
+
+
+## Malicious Email
+
+
+
+
+ <img src="https://imgur.com/mjgaVGG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+
+ <br/> In the first window you can see the email messeage I got in my inbox. Compared to the first email that I investiagted there are very few red flags that are left through out the email if any. The one thing that caught my attention was how the malicious actor  tried to redirect the user to whatsapp which is not a common thing established companies do which rasied futher suspision on this email. Other than that it seemed like a legit email from a travel company. <br/>
+  <img src="https://imgur.com/OlK0JUz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+
+
+<br /> The next image was the rest of the email that provided links to diffrent domains. I still was not sure if the email was malicious or not so I avoided clicking the links for my saftey. 
+<br />
+
+
+
+## Raw Email Messeage Syantax:  <br/>
+  <img src="https://imgur.com/GfxEFRx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+
+
+<br />  To futher continue my investigation I pulled up the Raw Email Messeage Syantax so I could find the IP address of the user who sent this email. I would then scan the IP address in virus total to help aid me in my investigation. 
+
+<br />
+
+
+
+ ## Virus Total Analysis :  <br/>
+
+<img src="https://imgur.com/SGoy1Ec.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+<br />  As you can see in the window above. As soon as I ran the IP address into the  OSNIT tool virus total. It confirmed that the user who sent this email has a malicous IP address, meaning they have been reported by security vendors for malicous activity. I did a little deeper analysis to see if I could find out a little more history about this IP address. I found out that this IP Address is in communication with a handful of malicious files. As I futher analylzed this Ip Address futher I found out that the malicous communicating files are mostly pertaing to information gathering or stealing. Below is the virus total window where I did a futher analysis on this Ip Address. 
+
+<img src="https://imgur.com/t7KYIsz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+<br />
+
+
+
+## Investigation report:  <br/>
+
+<img src="https://imgur.com/DhSMqZP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br /> 
+In this window you can see the investigation report that I created for this incident.To view its contents you can click on the picture.  It contains the hostname,Username ,Time of the event, Mirtre ID, Brief discription of what happpen, evidence/artifacts and recomendations to mitigate this malicous activity. 
+
+<br />
+
+
+
+## Conclusion <br/>  
+
 <br> In conclusion this overall wasn't a complex event to investigate as long as you knew the right places to look, then it was relativly easy. Exspecially since there were no links to redirect you to another domain or downloadable files on the email which made my analysis portion of this investigation realtivly quick.  What you could also take from this real life scenario is that malicious actors are getting really good at fabercating emails and posing as real compaines so you have to be really carful when clicking on emails. The email that was sent to my inbox looked like a legitiment email from Norton. It only rasied suspicion becuase I do not have any active memberships with the company which is what lead me to my investigation of the email. <br/>
+
+
 
 
