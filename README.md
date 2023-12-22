@@ -232,7 +232,16 @@ As I continued my investigation with the communicating files for that IP address
 ## Sandbox analysis/report 3 <br/>  
 
 <img src="https://imgur.com/2UveA2z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
-<b> For the last portion of my sandbox analysis on this email I was able to see the threat that would be exposed to a user if they were to click this link. The picture above shows this. The threat was marked as malicous by ANY.RUN the sandbox tool. The data was  from a Suricata IDS. The threat was URL shortening. The main reason a malicious actor would shorten a URL link would be to hide the exact location a URL would take a user. The main reason would be becuase it is a malicous domain that can contain malware, dangerous downloadable files, virius or more. <br
+
+<b> For the last portion of my sandbox analysis on this email I was able to see the threat that would be exposed to a user if they were to click this link. The picture above shows this. The threat was marked as malicous by ANY.RUN the sandbox tool. The data was  from a Suricata IDS. The threat was URL shortening. The main reason a malicious actor would shorten a URL link would be to hide the exact location a URL would take a user. The main reason would be becuase it is a malicous domain that can contain malware, dangerous downloadable files, virius or more. <br/>  
+
+## Investigation Report
+
+
+
+
+
+## Conclusion 
 
 
 
