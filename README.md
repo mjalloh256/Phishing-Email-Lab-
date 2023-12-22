@@ -237,11 +237,12 @@ As I continued my investigation with the communicating files for that IP address
 
 ## Investigation Report
 
-
+<img src="https://imgur.com/vEmwHrx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>   
 
 
 
 ## Conclusion 
+<b> <b/> 
 
 
 
