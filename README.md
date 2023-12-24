@@ -242,7 +242,7 @@ As I continued my investigation with the communicating files for that IP address
 
 
 ## Conclusion 
-<b> <b/> 
+<b> In conclusion to this real life email phishing Lab I was able to triage two difftrent examples of email phishing attempts. The first email I found was relativly easy to detect and analyze. I was able to confirm it was a malicious email relativly quickly. The second email however I had to conduct a deeper analysis on. I was not able to confrim it was a malicious email until I had scanned the redirected domains the email was trying to take a user to. I confirmed it was malicous when I saw all IP address that were conected to redirected domain were marked as malicous by virus total. Overall what gained from this lab is that malicous actors are getting better and better at creating fake email messages to compromise a user. This just serves as a reminder that you shouldnt give out your email to anyone, open emails you suspect are malicious, or open any emails and click links to those emails if you are not sure where they email is from. <b/> 
 
 
 
