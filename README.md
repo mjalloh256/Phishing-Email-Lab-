@@ -63,7 +63,7 @@ This is an real life  phishing atempt that I found while browsing through my ema
 
 ## Raw Email Messeage Syantax:  <br/>
 
-<img src="https://imgur.com/3uxNLQb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/YIzole7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 
 <br />  This window shows the Raw Email Messeage Syantax which gives me more information on the email itself. My main objective of opening up the raw contents of the email was to see the IP address that sent this email so I can futher confirm that this is a malicious attack. As you can see I highlighted the Ip address that was used to send this email to my account. 
 
@@ -78,7 +78,7 @@ This is an real life  phishing atempt that I found while browsing through my ema
 
 <br />  As you can see in the window above. As soon as I ran the IP address into the  OSNIT tool virus total. It confirmed that the user who sent this email has a malicous IP address, meaning they have been reported by security vendors for malicous activity. I did a little deeper analysis to see if I could find out a little more history about this IP address. I found out that this IP Address is in communication with a handful of malicious files. As I futher analylzed this Ip Address futher I found out that the malicous communicating files are mostly pertaing to information gathering or stealing. Below is the virus total window where I did a futher analysis on this Ip Address. 
 
-<img src="https://imgur.com/ijDfetd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/eBODNwh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 <br />
