@@ -186,7 +186,7 @@ This is another real life  phishing atempt that I found while browsing through m
 
 
 ## Raw Email Messeage Syantax:  <br/>
-  <img src="https://imgur.com/GfxEFRx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+  <img src="https://imgur.com/3lVnGlC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 
 
 <br />  To futher continue my investigation I pulled up the Raw Email Messeage Syantax so I could find the IP address of the user who sent this email. I would then scan the IP address in virus total to help aid me in my investigation. 
@@ -197,12 +197,12 @@ This is another real life  phishing atempt that I found while browsing through m
 
  ## Virus Total Analysis :  <br/>
 
-<img src="https://imgur.com/SGoy1Ec.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/FVvfm90.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 <br />  After I ran the IP address of the user that sent this email to me. Virus total marked this user as non malicious with 0 security vendors stating it is malicious. However I was able to see that the IP address was in communications with other files. This lead me to do a deeper analysis on virius total and investigate the communicating files within this IP address.
 
-<img src="https://imgur.com/t7KYIsz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img src="https://imgur.com/254MFIF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 
 As I continued my investigation with the communicating files for that IP address I found out that 2 of the 13 files this IP address was communicating with were marked as malicious which rasied even futher suspicion. The first file had a score of 1/60 security vendors makrking the file as malicious and the second file had a score of 1/59 security vendors marking it as malicious.Even though the IP address was not marked for malicious activity that didnt mean it was totally clean. 
 
